@@ -1,0 +1,7 @@
+Local run
+
+mvn clean test -Dudid=R9ZR30MFJHP -DrunEnvironment=local -Denv=local
+
+HeadSpin Cloud
+
+mvn clean test -DCloudService=headspinCloud
